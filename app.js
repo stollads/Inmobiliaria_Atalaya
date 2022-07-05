@@ -5,9 +5,9 @@ const path = require('path');
 
 var indexRouter = require('./routes/index');
 
-app.set('views', path.join(__dirname, 'views'));
+app.set('views', path.join(__dirname, 'views/pages'));
 app.set("view engine", "ejs")
-
+app.use(express.static(path.join(__dirname,'public')));
 
 app.use('/', indexRouter);
 
