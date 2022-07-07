@@ -10,6 +10,20 @@ const controllers = {
         .then(products=>{
             res.render("index",{products})
         })
+    }, 
+    createForm: (req, res) => {
+        res.render("productCreate")
+    },
+
+    create: (req, res) => {
+        db.Product.create({
+            nombre: req.body.nombre,
+            detalle: req.body.detalle,
+            imagen: req.file.filename,
+            precio: req.body.precio,
+            categoria: req.body.categoria,
+          })
+          res.redirect("/");
     }
 }
 
