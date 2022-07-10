@@ -50,7 +50,15 @@ const controllers = {
             res.render("productList", {products});
 
         })
-    }
+    },
+    detailForm: (req, res) => {
+     db.Product.findByPk(req.params.id)
+     .then(products => {res.render("productDetail", {products})})   
+
+    },
+
+    
+    
 }
 
 module.exports = controllers

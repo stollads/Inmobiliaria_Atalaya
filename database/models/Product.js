@@ -7,19 +7,19 @@ module.exports = (sequelize, DataTypes) => {
             autoIncrement : true,
         }, 
         nombre : {
-            type : DataTypes.STRING,
+            type : DataTypes.STRING(100),
         },
         detalle : {
-            type : DataTypes.STRING
+            type : DataTypes.STRING(999)
         },
         imagen : {
-            type : DataTypes.STRING
+            type : DataTypes.STRING(100)
         },
         precio : {
             type : DataTypes.INTEGER
         },
         descripcion : {
-            type : DataTypes.STRING
+            type : DataTypes.STRING(999)
         },
     }
 

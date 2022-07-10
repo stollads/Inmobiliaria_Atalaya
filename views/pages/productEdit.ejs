@@ -6,23 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/css/productCreate">
+    <link rel="stylesheet" href="/css/productEdit.css">
 </head>
 <body>
     <header><%- include("../partials/header")%></header>
     <div class="formulario">
-        <h1>Editar producto</h1>
         <form action="/products/edit/<%= products.idProduct %> " method="POST" enctype="multipart/form-data" class="formulario">
-           <div class="inputs">
+           <div class="inputs" style="display: flex; flex-direction: column; align-items: center; justify-content: space-evenly; gap: 10px;">
             <input type="text" name="nombre" id="nombre" placeholder="nombre del producto" value="<%=   products.nombre   %>"> 
             <input type="text" name="detalle" placeholder="detalle de producto" value="<%=   products.detalle   %>">
             <input type="number" name="precio" placeholder="precio de producto" value="<%=   products.precio   %>">
             <input type="text" name="descripcion" placeholder="descripcion de producto" value="<%=   products.descripcion   %>">
-            <input type="file" name="imagen" placeholder="imagen de producto" value="<%=   products.imagen   %>">
+            <input type="file" name="imagen" placeholder="imagen de producto" class="file" value="<%=   products.imagen   %>">
            </div>
 
-           <input type="submit" value="editar producto">
-        </form>
+           <input type="submit" value="Editar producto" class="btn" style="font-size:1.3em;">        
+           </form>
     </div>
     <footer><%- include("../partials/footer")%></footer>
 </body>

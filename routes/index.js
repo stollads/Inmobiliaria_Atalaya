@@ -18,6 +18,9 @@ router.post("/products/create", upload.single("imagen"), controllers.create);
 router.get("/products/edit/:id", controllers.editForm);
 router.post("/products/edit/:id",  upload.single("imagen"), controllers.processEdit);
 
+router.get("/products/detail/:id", controllers.detailForm);
+ 
+
 
 
 

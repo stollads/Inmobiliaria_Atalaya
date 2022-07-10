@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WOOF!</title>
+    <title>ATALAYA!</title>
     <link rel="stylesheet" href="/css/productCreate.css">
     <script src="https://kit.fontawesome.com/931a27a940.js" crossorigin="anonymous"></script>
 </head>
@@ -19,7 +19,6 @@
 
         <div style="display: flex;align-content: space-around;flex-direction: row;flex-wrap: nowrap;justify-content: space-between;align-items: center;    margin: 5px;">
           <h1>Productos:</h1>
-          <a href="/products" class="ashe"><h1>Ver todos!</h1></a>
         </div>
         
         <div class="products-container">
@@ -27,13 +26,12 @@
           <a href="/products/detail/<%= product.idProduct %>" class="qsyo">
           <article>
             <img src="/img/products/<%= product.imagen %>" alt="">
-            <div class="product-card">
-              <i class="fa-solid fa-dog"></i>
+            <div class="product-card" style="background-color: white">
+              <h1 class="description"><%= product.nombre %></h1>
               <div class="flex-row">
-                <p class="price" style="color:var(--azul-fuerte)">$<%= product.precio %></p>
+                <p class="price">u$s <%= product.precio %></p>
               </div>
-              <h3 class="description" style="color: #5c5c5c;" ><%= product.nombre %></h3>
-              <h3 class="description" style="color: #5c5c5c;" ><%= product.descripcion %> </h3>
+              <h3 class="description"><%= product.descripcion %> </h3>
             </div>
           </article>
         </a>

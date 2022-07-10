@@ -19,7 +19,9 @@ html {
 }
 
 body {
-    background-color: var(--blanco);
+    background-image: url("/img/banner5.png");
+    background-repeat: repeat;
+    background-color: #EDEDED;
 }
 
 .fa-dog:before {
@@ -63,9 +65,7 @@ main {
     margin: 0 auto;
 }
 
-.products-container{
-    background-color: #f7f7f7;
-}
+
 main section div article {
     background-color: var(--blanco) !important;
     margin: 10px 10px;
@@ -86,7 +86,9 @@ main section article img {
   
 .price {
     font-size: var(--text-lg);
-    color: black;
+    color: #274277;
+    font-weight: bold;
+    font-size: 20px;
 }
 
   
@@ -95,16 +97,17 @@ main section article img {
 }
   
 .description {
-    opacity: 0;
-    transition: opacity 0.5s linear;
+    color: #274277;
+    font-size: 15px;;
 }
+
   
-main section article:hover .description {
+main section article:hover {
     opacity: 1;
 }
   
 main section article i, .discount {
-    color: black
+    color: #274277
 }
 
 main section article i {
@@ -144,9 +147,7 @@ article div.product-card {
 
 
 @media screen and (min-width: 538px){
-    .description {
-        opacity: 1;
-    }
+   
     
     .products-container {
         display: flex;
@@ -178,10 +179,8 @@ article div.product-card {
 }
 
 @media screen and (min-width:949px){
-    .description {
-        opacity: 1;
-    }
-    
+   
+
     .products-container {
         display: flex;
         gap: 10px;

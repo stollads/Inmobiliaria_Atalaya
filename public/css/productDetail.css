@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("/img/background2.png")!important;
+    background-repeat: repeat !important;
+}
+
+.div-productDetail{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    margin: 10px;
+    align-content: stretch;
+    padding: 10px;
+    color: #274277;
+}
+
+.container-Detail{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+

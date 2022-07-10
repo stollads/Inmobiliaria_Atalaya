@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.formulario{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+input{
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    height: 60px;   
+    border: 1px solid #274277;
+}
+
+input:hover{box-shadow: 0px 0px 10px rgb(100 100 100);}
+
+body{
+    background-image: url("/img/banner5.png");
+    background-repeat: repeat;
+}
+
+.btn{
+    background-color: #274277;
+    color: white;
+    margin-top: 20px;
+}
+
+.btn:hover{
+    background-color: white;
+    color: #274277;
+}
+
+.file{
+    background-color: white;
+}
+
