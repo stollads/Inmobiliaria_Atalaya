@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.imagen-container img{
+    width: 50px;
+}
+
+.imagen-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 15px;
+    background-color:#EDEDED !important;
+    padding-top: 15px;
+}
+
+
+.container-footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F49829;
+}
+
+.footer-codigo{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-codigo img{
+    margin-right: 30px;
+}
+
+.contacto{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.contacto p{
+    color: white;
+}
+

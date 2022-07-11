@@ -5,8 +5,9 @@
 }
 
 body{
-    background-image: url("/img/background2.png")!important;
+    background-image: url("/img/banner5.png")!important;
     background-repeat: repeat !important;
+    background-color: #EDEDED;
 }
 
 .div-productDetail{
@@ -27,3 +28,18 @@ body{
     justify-content: space-evenly;
 }
 
+.div-BTN{
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn{
+    background-color: #274277;
+    color: white;
+    margin-top: 20px;
+}
+
+.btn:hover{
+    background-color: white;
+    color: #274277;
+}
