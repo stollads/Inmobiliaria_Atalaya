@@ -40,26 +40,25 @@ https://www.figma.com/file/pH5l8KhYuTQlDr54pCHane/Atalaya_boceto_crear
 
 # Atalaya - Paleta cromática
 
-| Color | Hexadecimal |
 
-| -------------------------- | ---------------------------------------- ----------------------------------------------- |
-
-| Azul |  #274277 |
-| Naranja |  #F39729 |
+| Color             | Hex                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| Azul | #274277 |
+| Naranja | #F39729 |
 | Gris | #ECECEC |
 
 
 # Instalar
 
 ```bash
-instalar npm
+npm install
 ```
 
 # Uso
 
 
 ```bash
-inicio de npm
+npm start
 ```
 
 # Autores
