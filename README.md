@@ -8,19 +8,19 @@ Somos una inmobiliaria con el objetivo principal de brindar practicidad y rapide
 # Atalaya - Vistas
 
 ### ***Home***
-! [Texto de la imagen] (https://github.com/stollads/Inmobiliaria_Atalaya/blob/main/public/img/Atalaya_Home.png)
+![Texto de la imagen](https://github.com/stollads/Inmobiliaria_Atalaya/blob/main/public/img/Atalaya_Home.png)
 
 ### ***Catálogo***
-! [Texto de la imagen] (https://github.com/stollads/Inmobiliaria_Atalaya/blob/main/public/img/Atalaya_Catalogo.png)
+![Texto de la imagen](https://github.com/stollads/Inmobiliaria_Atalaya/blob/main/public/img/Atalaya_Catalogo.png)
 
 ### ***Detalle de producto***
-! [Texto de la imagen] (https://github.com/stollads/Inmobiliaria_Atalaya/blob/main/public/img/Atalaya_Detalle%20de%20producto.png)
+![Texto de la imagen](https://github.com/stollads/Inmobiliaria_Atalaya/blob/main/public/img/Atalaya_Detalle%20de%20producto.png)
 
 ### ***Editar producto***
-! [Texto de la imagen] (https://github.com/stollads/Inmobiliaria_Atalaya/blob/main/public/img/Atalaya_Editar%20producto.png)
+![Texto de la imagen](https://github.com/stollads/Inmobiliaria_Atalaya/blob/main/public/img/Atalaya_Editar%20producto.png)
 
 ### ***Crear producto***
-! [Texto de la imagen] (https://github.com/stollads/Inmobiliaria_Atalaya/blob/main/public/img/Atalaya_Crear%20producto.png)
+![Texto de la imagen](https://github.com/stollads/Inmobiliaria_Atalaya/blob/main/public/img/Atalaya_Crear%20producto.png)
 
 
 # Atalaya - Bocetos
