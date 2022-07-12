@@ -64,7 +64,5 @@ inicio de npm
 
 # Autores
 
-- [Stoll Alejand] https://github.com/stollads
-
-
+- [Stoll Alejandro] https://github.com/stollads
 
