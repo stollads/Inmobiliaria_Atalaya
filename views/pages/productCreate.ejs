@@ -13,12 +13,21 @@
     <div class="formulario">
    
         <form action="/products/create" method="POST" enctype="multipart/form-data" class="formulario">
+            <% if(typeof errors != 'undefined'){ %>
+                <ul class="claseInutil">
+                    <% for (let i = 0; i < errors.length; i++) { %>
+                        <li style="color:red" class="claseInutil">
+                            <%= errors[i].msg %>
+                        </li>
+                    <% } %> 
+                </ul>
+            <% } %>
            <div class="inputs" style="display: flex; flex-direction: column; align-items: center; justify-content: space-evenly; gap: 10px;">
             <input type="text" name="nombre" id="nombre" placeholder="Nombre del producto"> 
             <input type="text" name="detalle" placeholder="Detalle de producto">
             <input type="number" name="precio" placeholder="Precio de producto">
-            <input type="text" name="descripcion" placeholder="Descripcion de producto">
-            <input type="file" name="imagen" placeholder="Imagen de producto" class="file">
+            <input type="text" name="categoria" placeholder="Categoria de producto">
+            <input type="file" name="imagen" placeholder="Imagen de producto" class="file" required>
            </div>
 
            <input type="submit" value="Crear producto" class="btn" style="font-size: 1.3em;">

@@ -12,12 +12,21 @@
     <header><%- include("../partials/header")%></header>
     <div class="formulario">
         <form action="/products/edit/<%= products.idProduct %> " method="POST" enctype="multipart/form-data" class="formulario">
+            <% if(typeof errors != 'undefined'){ %>
+                <ul class="claseInutil">
+                    <% for (let i = 0; i < errors.length; i++) { %>
+                        <li style="color:red" class="claseInutil">
+                            <%= errors[i].msg %>
+                        </li>
+                    <% } %> 
+                </ul>
+            <% } %>
            <div class="inputs" style="display: flex; flex-direction: column; align-items: center; justify-content: space-evenly; gap: 10px;">
             <input type="text" name="nombre" id="nombre" placeholder="nombre del producto" value="<%=   products.nombre   %>"> 
             <input type="text" name="detalle" placeholder="detalle de producto" value="<%=   products.detalle   %>">
             <input type="number" name="precio" placeholder="precio de producto" value="<%=   products.precio   %>">
-            <input type="text" name="descripcion" placeholder="descripcion de producto" value="<%=   products.descripcion   %>">
-            <input type="file" name="imagen" placeholder="imagen de producto" class="file" value="<%=   products.imagen   %>">
+            <input type="text" name="categoria" placeholder="categoria de producto" value="<%=   products.categoria   %>">
+            <input type="file" name="imagen" placeholder="imagen de producto" class="file" value="<%=   products.imagen   %>" required>
            </div>
 
            <input type="submit" value="Editar producto" class="btn" style="font-size:1.3em;">        
